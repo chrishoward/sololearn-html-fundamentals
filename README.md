@@ -47,14 +47,14 @@ Each lesson consisted of theory, code examples, multiple choice quizzes & coding
     1. [x] The audio Element
     1. [x] The video Element
     1. [x] The progress Element
-    1. [ ] Web Storage API
-    1. [ ] Geolocation API
-    1. [ ] Drag&Drop API
-    1. [ ] SVG
-    1. [ ] SVG Animations & Paths
-    1. [ ] Canvas
-    1. [ ] SVG vs. Canvas
-    1. [ ] Canvas Transformations
-    1. [ ] HTML5 Forms, Part 1
-    1. [ ] HTML5 Forms, Part 2
-    1. [ ] Module 4 Quiz *(6 Multiple Choice & Coding Quizzes)*
+    1. [x] Web Storage API
+    1. [x] Geolocation API
+    1. [x] Drag&Drop API
+    1. [x] SVG
+    1. [x] SVG Animations & Paths
+    1. [x] Canvas
+    1. [x] SVG vs. Canvas
+    1. [x] Canvas Transformations
+    1. [x] HTML5 Forms, Part 1
+    1. [x] HTML5 Forms, Part 2
+    1. [x] Module 4 Quiz *(6 Multiple Choice & Coding Quizzes)*
