@@ -5,7 +5,7 @@
 
 :book:  Course information: https://www.sololearn.com/Course/HTML/  
 
-Each lesson consisted of theory, code examples, multiple choice quizzes & coding quizzes.
+Each lesson consisted of theory, code examples, multiple choice quizzes & coding exercises.
 - [x] Denotes lesson completed.
 
 ## Curriculum: 
