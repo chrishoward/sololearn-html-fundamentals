@@ -16,7 +16,7 @@ Each lesson consisted of theory, code examples, multiple choice quizzes & coding
     1. [x] Creating a Blog
     1. [x] Module 1 Quiz *(4 Multiple Choice & Coding Quizzes)*
 
-1. **HTML Basics**
+1. **Module 2: HTML Basics**
     1. [x] Paragraphs 
     1. [x] Text Formatting 
     1. [x] Headings, Lines, Comments 
