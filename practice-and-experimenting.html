@@ -1,11 +1,224 @@
 <!-- This HTML file was created to implement and experiment with the various HTML elements and features taught in the course. -->
 
+<!-- Doctype Declaration -->
 <!DOCTYPE html>
+
+<!-- HTML Section -->
 <html>
+
+	<!-- Head Section -->
 	<head>
 		<meta charset="UTF-8">
 		<title>Practicing and Experimenting with HTML Elements and Features</title>
 	</head>
+
+	<!-- Body Section -->
 	<body>
+
+		<!-- Headings -->
+		<h1>Heading Elements</h1>
+		<h1>Heading 1</h1>
+		<h2>Heading 2</h2>
+		<h3>Heading 3</h3>
+		<h4>Heading 4</h4>
+		<h5>Heading 5</h5>
+		<h6>Heading 6</h6>
+		<br>
+
+		<!-- Paragraphs -->
+		<h1>Paragraph Element</h1>
+		<p>This is a paragraph element.</p>
+		<p>This is another paragraph element.</p>
+		<p>This is a paragraph with a <br>line break</p>
+		<br>
+
+		<!-- Text Formatting -->
+		<h1>Text Formatting Elements</h1>
+		<p>This is regular text.</p>
+		<p>This is <b>bold</b> text.</p>
+		<p>This is <strong>strong</strong> text.</p>
+		<p>This is <i>italic</i> text.</p>
+		<p>This is <u>underlined</u> text.</p>
+		<p>This is <s>strikethrough</s> text.</p>
+		<p>This is <sup>superscript</sup> text.</p>
+		<p>This is <sub>subscript</sub> text.</p>
+		<p>This is <big>big</big> text.</p>
+		<p>This is <small>small</small> text.</p>
+		<p>This is <ins>inserted</ins> text.</p>
+		<p>This is <del>deleted</del> text.</p>
+		<p>This is <em>emphasized</em> text.</p>
+		<p>This is <mark>marked</mark> text.</p>
+		<br>
+
+		<!-- Horizontal Rules -->
+		<h1>Horizontal Rule Element</h1>
+		<p>The line below is a horizontal rule.</p>
+		<hr>
+		<br>
+
+		<!-- Dimension Attribute -->
+		<h1>Dimension Attribute</h1>
+		<p>This horizontal rule below is dimensioned to 75% of the viewport.</p>
+		<hr width="75%">
+		<p>This horizontal rule below is dimensioned to 50% of the viewport.</p>
+		<hr width="50%">
+		<p>This horizontal rule below is dimensioned to 25% of the viewport.</p>
+		<hr width="25%">
+		<br>
+
+		<!-- Alignment Attribute -->
+		<h1>Alignment Attribute</h1>
+		<p align="center">This paragraph is aligned center.</p>
+		<p align="left">This paragraph is aligned left.</p>
+		<p align="right">This paragraph is aligned right.</p>
+		<br>
+
+		<!-- Images -->
+		<h1>Images</h1>
+		<p>This image of a dog is stored locally and resized to 400px with the width attribute.</p>
+		<img src="dog.jpg" alt="dog" width="400px">
+		<p>This image of a tree is stored on an external site on the internet, is resized to 20% with the width attribute and has a border of 2px.</p>
+		<img src="https://goo.gl/rEgQvn" alt="tree" width="20%" border="2px">
+		<br>
+		<br>
+		<br>
+
+		<!-- Links -->
+		<h1>Links</h1>
+		<p><a href="http://www.google.com">This is a link to Google.com</a>, which will open up in this browser tab.</p>
+		<p>The image below is also a link to Google.com</p>
+		<a href="http://www.google.com"><img src="google.png"></a>
+		<p><a href="http://www.google.com" target="_blank">This is another link to Google.com</a>, but this time it will open up in a new browser tab</p>
+		<br>
+
+		<!-- Lists -->
+		<h1>Lists</h1>
+		<h2>Ordered Lists</h2>
+			<ol>
+				<li>This</li>
+				<li>is</li>
+				<li>an</li>
+				<li>ordered</li>
+				<li>list</li>
+				<li>and
+					<ol type="i">
+						<li>this</li>
+						<li>is</li>
+						<li>an</li>
+						<li>ordered</li>
+						<li>sub-list</li>
+					</ol>
+				</li>
+			</ol>
+			<h2>Unordered Lists</h2>
+			<ul>
+				<li>This</li>
+				<li>is</li>
+				<li>an</li>
+				<li>unordered</li>
+				<li>list</li>
+				<li>and
+					<ul>
+						<li>this</li>
+						<li>is</li>
+						<li>an</li>
+						<li>unordered</li>
+						<li>sub-list</li>
+					</ul>
+				</li>
+			</ul>
+			<h2>Definition Lists</h2>
+			<dl>
+				<dt>This:</dt>
+				<dd>Is a definition list</dd>
+				<dt>And:</dt>
+				<dd>It is made up of 'Definition Terms' and 'Definition Descriptions'.</dd>
+				<dt>It:</dt>
+				<dd>Is obviously useful for listing definitions, such as in a dictionary.</dd>
+			</dl>
+		<br>
+
+		<!-- Tables -->
+		<h1>Tables</h1>
+		<p>This is a borderless, center-aligned table with 3 rows and 3 columns.</p>
+		<table align="center">
+			<tr>
+				<td>Cell 1</td>  <td>Cell 2</td>  <td>Cell 3</td>
+			</tr>
+			<tr>
+				<td>Cell 4</td>  <td>Cell 5</td>  <td>Cell 6</td>
+			</tr>
+			<tr>
+				<td>Cell 7</td>  <td>Cell 8</td>  <td>Cell 9</td>
+			</tr>
+		</table>
+		<br>
+		<p>This is a bordered table with 4 rows, 3 columns, some background colors in cells and with some cells spanning multiple columns.</p>
+		<p><em>Note: HTML5 does not support table borders, use CSS instead.</em></p>
+		<table border="1">
+			<tr>
+				<td bgcolor="red">Cell 1</td>  <td>Cell 2</td>  <td>Cell 3</td> 
+			</tr>
+			<tr>
+				<td colspan="2">Cell 1</td>                     <td>Cell 2</td>
+			</tr>
+			<tr>
+				<td>Cell 3</td>                <td colspan="2" bgcolor="green">Cell 4</td>
+			</tr>
+			<tr>
+				<td colspan="3">Cell 5</td>
+			</tr>
+		</table>
+		<br>
+
+		<!-- Block Level vs Inline Elements -->
+		<h1>Block Level Elements vs Inline Elements</h1>
+		<p><strong>Block level</strong> elements start from a new line like paragraphs, headings, lists and forms shown below.</p>
+		<p>Paragraphs</p>
+		<h3>Headings</h3>
+		<ul>
+			<li>Lists</li>
+		</ul>
+		<form>
+			<input type="text">
+		</form>
+		<br>
+		<p><strong>Inline</strong> elements are normally displayed without line breaks like text formatting, images and inputs shown below.</p>
+		<form>
+			<p>
+				<b>Text</b> <em>formatting, </em>
+				<img src="images.png" alt="image with text images">,
+				<input type="text" placeholder="inputs">
+			</p>
+		</form>
+		<br>
+
+		<!-- Forms -->
+		<h1>Forms</h1>
+		
+
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
 	</body>
 </html>
