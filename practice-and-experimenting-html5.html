@@ -14,9 +14,209 @@
 
     <!-- Body Section -->
     <body>
-        <p>Test</p>
-
         
+        <!-- Header Section -->
+        <header>
+            <h1>HTML5 Practice and Experimenting</h1>
+        </header>
+
+        <!-- Navigation Section -->
+        <nav>
+            <ul>
+                <a href="#"><li>Nav Link 1</li></a>
+                <a href="#"><li>Nav Link 2</li></a>
+                <a href="#"><li>Nav Link 3</li></a>
+                <a href="#"><li>Nav Link 4</li></a>
+                <a href="#"><li>Nav Link 5</li></a>          
+            </ul>
+        </nav>
+
+        <!-- Article Section -->
+        <article>
+            <h2>This is an 'Article' Element.</h2>
+            <p>HTML5 incorporates seven main content models. One of these is the 'sectioning' content model. This contains elements for page structure such as &ltheader&gt, &ltnav&gt, &ltarticle&gt, &ltsection&gt, &ltaside&gt and &ltfooter&gt. This paragraph is nested in an &ltarticle&gt element.</p>
+
+            <!-- Section 1 of Article -->
+            <section>
+                <h3>This is 'Section' 1 of the Article</h3>
+                <p>This paragraph and the above heading are nested in a &ltsection&gt element, which itself is nested in the article element.</p>
+            </section>
+
+            <!-- Section 2 of Article -->
+            <section>
+                <h3>This is 'Section' 2 of the Article</h3>
+                <p>This paragraph and the above heading are also nested in a &ltsection&gt element, which itself is nested in the article element.</p>
+            </section>
+
+            <!-- Section 3 of Article - Audio Element -->
+            <section>
+                <h3>'Audio' Element</h3>
+                <p>The 'audio' element is part of the 'embedded' content model in HTML5 and allows audio files to be embedded into and controlled from a webpage.</p>
+                <audio style="width: 50%;" controls>
+                    <source src="http://www.winhistory.de/more/winstart/mp3/vista.mp3" type="audio/mp3">
+                </audio>
+            </section>
+
+            <!-- Section 4 of Article - Video Element -->
+            <section>
+                <h3>'Video' Element</h3>
+                <p>The 'video' element is also part of the 'embedded' HTML5 content model and allows videos to be embedded in a webpage.</p>
+                <video style="width: 50%;" controls>
+                    <source src="http://www.sample-videos.com/video/mp4/720/big_buck_bunny_720p_1mb.mp4" type="video/mp4">
+                </video>
+            </section>
+            
+            <!-- Section 5 of Article - Progress Bar -->
+            <section>
+                <h3>'Progress' Bar Element</h3>
+                <p>The 'progress' element provides a progress bar. It can also be updated dynamically using JavaScript, though it isn't in this particular example.</p>
+                <p>0% Progress: <progress min="0" max="100" value="0"></progress></p>
+                <p>25% Progress: <progress min="0" max="100" value="25"></progress></p>
+                <p>50% Progress: <progress min="0" max="100" value="50"></progress></p>
+                <p>100% Progress: <progress min="0" max="100" value="100"></progress></p>
+            </section>
+
+            <!-- Section 6 of Article - Scalable Vector Graphics -->
+            <section>
+                <h3>Scalable Vector Graphics</h3>
+                <p>In HTML5 you can draw SVG graphics using the HTML5 SVG element.</p>
+                <svg width="120" height="110">
+                    <circle cx="51" cy="51" r="50" fill="lightblue" stroke="blue">
+                </svg>
+                <svg width="120" height="110">
+                    <rect width="100" height="100" fill="lightgreen" stroke="green">
+                </svg>
+                <svg width="120" height="110">
+                    <line x1="0" y1="100" x2="100" y2="0" stroke="black">
+                </svg>
+                <svg width="120" height="110">
+                    <polyline points="0 0, 0 100, 100 0, 100 100" stroke="orange" fill="none">
+                </svg>
+                <svg width="120" height="110">
+                    <ellipse cx="51" cy="51" rx="50" ry="25" fill="red">
+                </svg>
+                <svg width="120" height="110">
+                    <polygon points="0 0, 50 100, 100 0" fill="purple">
+                </svg>
+            </section>
+
+            <!-- Section 7 of Article - SVG Animations -->
+            <section>
+                <h3>SVG Animations with 'Animate' Element</h3>
+                <p>HTML5 offers the ability to create SVG animations using the &ltanimate&gt element.</p>
+                <svg width="300" height="110">
+                    <rect width="100" height="100" fill="blue">
+                        <animate attributeName="x" from="0" to="100" dur="3s" fill="freeze" repeatCount="indefinite">
+                    </rect>
+                </svg>
+                <svg width="120" height="110">
+                    <circle cx="51" cy="51" r="50" fill="green">
+                        <animate attributeName="r" from="50" to="0" dur="5s" fill="freeze" repeatCount="indefinite">
+                    </circle>
+                </svg>
+            </section>
+
+            <!-- Section 8 of Article - HTML5 Forms -->
+            <section>
+                <h3>HTML5 Forms</h3>
+                <p>HTML5 has introduced new form input types and form input attributes. Here are a few examples of new input types.</p>
+                <ul>
+                    <li>
+                        <form>
+                            <label for="date">Date</label>
+                            <input type="date" name="date">
+                        </form>
+                        <br>
+                    </li>
+                    <li>
+                        <form>
+                            <label for="datetime-local">Local Date/Time</label>
+                            <input type="datetime-local" name="datetime-local">
+                        </form>
+                        <br>
+                    </li>
+                    <li>
+                        <form>
+                            <label for="week">Week</label>
+                            <input type="week" name="week">
+                        </form>
+                        <br>
+                    </li>
+                    <li>
+                        <form>
+                            <label for="month">Month</label>
+                            <input type="month" name="month">
+                        </form>
+                        <br>
+                    </li>
+                    <li>
+                        <form>
+                            <label for="color">Color</label>
+                            <input type="color" name="color">
+                        </form>
+                        <br>
+                    </li>
+                    <li>
+                        <form>
+                            <label for="range">Range</label>
+                            <input type="range" name="range" min="0" max="100">
+                        </form>
+                        <br>
+                    </li>
+                </ul>
+
+                <p>The HTML5 <strong>email</strong>, <strong>tel</strong> and <strong>url</strong> input types are especially useful on mobile devices and tablets as they open up a specific keyboard layout based on the type of input. So for example when the <strong>tel</strong> input field is selected it will open a keyboard layout with numbers for entering a phone number.</p>
+                <ul>
+                    <li>
+                        <form>
+                            <label for="email">Email</label>
+                            <input type="email" name="email" placeholder="email@example.com">
+                        </form>
+                        <br>
+                    </li>
+                    <li>
+                        <form>
+                            <label for="tel">Telephone</label>
+                            <input type="tel" name="tel" placeholder="0411111111">
+                        </form>
+                        <br>
+                    </li>
+                    <li>
+                        <form>
+                            <label for="url">URL</label>
+                            <input type="url" name="url" placeholder="www.example.com">
+                        </form>
+                    </li>
+                </ul>
+        </article>
+
+        <!-- Aside Section -->
+        <aside>
+            <h4>This is an 'Aside' Element</h4>
+            <p>Aside content is secondary content that is separate from the main article/section content but still indirectly related.</p>
+        </aside>
+
+        <!-- Footer Section -->
+        <footer>
+            <div id="footer-about">
+                <h4>This is the 'Footer' element</h4>
+                <p>The footer is usually positioned at the bottom of the page and contains information such as privacy statements, copyright statements, lists of links, contact information, social media icons, terms of service, sitemaps etc.</p>
+            </div>
+            <div id="footer-contact">
+                <h4>Contact</h4>
+                <ul>
+                    <a href="https://www.linkedin.com/in/christopher-howard-au/"><li>LinkedIn</li></a>
+                    <a href="https://github.com/christopher-howard"><li>GitHub</li></a>
+                </ul>
+            </div>
+            <div id="footer-social-media">
+                <h4>Social Media</h4>
+                <a href="#"><img src="http://clipart-library.com/image_gallery2/Twitter-High-Quality-PNG.png" alt="twitter-logo" width="50px"></a>
+                <a href="#"><img src="https://cdn.worldvectorlogo.com/logos/facebook-4.svg" alt="facebook-logo" width="50px"></a>
+                <a href="#"><img src="https://images.sftcdn.net/images/t_optimized,f_auto/p/7949daee-99ec-11e6-b282-00163ed833e7/2186676647/google-logo.png" alt="google-plus-logo" width="50px"></a>
+            </div>
+        </footer>
+
     </body>
 
 </html>
